@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&display=swap');
+
+.back-container{
+    background-image: url("exploreBackground.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transform: translate(0,  0%);
+    background-repeat: no-repeat;
+    
+}
+
+.content-main{
+    
+    margin: 0% 10%;
+    
+}
+
+.enter-Text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.styling-enter-text{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.text-under{
+    color:white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+.content-info-block1{
+    width: 100%;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.album-pictures{
+    
+    display: block;
+}
+
+.carousel-item1{
+    position: relative;
+    background-image: url("album-covers/Ballads1-album-cover.png");
+    width: 100%;
+    height: 25rem ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.carousel-item2{
+    position: relative;
+    background-image: url("album-covers/Nectar-album-cover.jpg");
+    width: 100%;
+    height: 25rem;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    background-size: cover;
+    display: inline-block;
+}
+
+.carousel-item3{
+    position: relative;
+    background-image: url("album-covers/InTongues-album-cover.jpg");
+    width: 100%;
+    height: 25rem;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    background-size: cover;
+    display: inline-block;
+}
+
+.position-text-album{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    
+}
+
+@media (min-width: 320px ) and (max-width: 375px) {
+    .content-info-block1{
+        font-size: 1rem;
+    }
+    .carousel-item1{
+        position: relative;
+        background-image: url("album-covers/Ballads1-album-cover.png");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .carousel-item2{
+        position: relative;
+        background-image: url("album-covers/Nectar-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        background-size: cover;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .carousel-item3{
+        position: relative;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        background-image: url("album-covers/InTongues-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        background-size:  cover;
+    }
+}
+
+@media screen and (min-width: 375px ) and (max-width: 425px) {
+    .content-info-block1{
+        font-size: 1rem;
+    }
+    .carousel-item1{
+        position: relative;
+        background-image: url("album-covers/Ballads1-album-cover.png");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item2{
+        position: relative;
+        background-image: url("album-covers/Nectar-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        background-size: cover;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item3{
+        position: relative;
+        background-image: url("album-covers/InTongues-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        background-size:  cover;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+
+    .position-text-album{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'M PLUS 1p', sans-serif;
+        font-weight: 900;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 375px ) and (max-width: 425px) {
+    .content-info-block1{
+        font-size: 1rem;
+    }
+    .carousel-item1{
+        position: relative;
+        background-image: url("album-covers/Ballads1-album-cover.png");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item2{
+        position: relative;
+        background-image: url("album-covers/Nectar-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        background-size: cover;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item3{
+        position: relative;
+        background-image: url("album-covers/InTongues-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        background-size:  cover;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+
+    .position-text-album{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'M PLUS 1p', sans-serif;
+        font-weight: 900;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+
+
+@media screen and (min-width: 425px ) and (max-width: 700px) {
+    .content-info-block1{
+        font-size: 1rem;
+    }
+    .carousel-item1{
+        position: relative;
+        background-image: url("album-covers/Ballads1-album-cover.png");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item2{
+        position: relative;
+        background-image: url("album-covers/Nectar-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        background-size: cover;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item3{
+        position: relative;
+        background-image: url("album-covers/InTongues-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        margin-top: 5%;
+        background-size:  cover;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+
+    .album-pictures{
+        display: block;
+    }
+
+    .position-text-album{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'M PLUS 1p', sans-serif;
+        font-weight: 900;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+    }
+
+
+    
+
+}
+
+@media screen and (min-width: 700px ) and (max-width: 1000px) {
+    .content-info-block1{
+        font-size: 1rem;
+    }
+    .carousel-item1{
+        
+        
+        background-image: url("album-covers/Ballads1-album-cover.png");
+        width: 100%;
+        margin-right: 5%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        clear: both;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item2{
+        
+        
+        background-image: url("album-covers/Nectar-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clear: both;
+        margin-top: 0%;
+        margin-right: 5%;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item3{
+        
+        
+        background-image: url("album-covers/InTongues-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size:  cover;
+        clear: both;
+        margin-top: 0%;
+        
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+
+    .album-pictures{
+        display: flex;
+        margin-top: 0%;
+    }
+
+    .position-text-album{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'M PLUS 1p', sans-serif;
+        font-weight: 900;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        
+    }
+    .back-container{
+        background-image: url("exploreBackground.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        transform: translate(0,  0%);
+        background-repeat: no-repeat;
+        height: 100%;
+       
+            min-height: 100%;
+      
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+    }
+        .text-under{
+    color:white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-bottom: 6rem;
+
+    }   
+}
+
+@media screen and (min-width: 1000px ) and (max-width: 1920px) {
+    .content-info-block1{
+        font-size: 1rem;
+    }
+    .carousel-item1{
+        
+        
+        background-image: url("album-covers/Ballads1-album-cover.png");
+        width: 100%;
+        margin-right: 5%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        clear: both;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item2{
+        
+        
+        background-image: url("album-covers/Nectar-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clear: both;
+        margin-top: 0%;
+        margin-right: 5%;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item3{
+        
+        
+        background-image: url("album-covers/InTongues-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size:  cover;
+        clear: both;
+        margin-top: 0%;
+        
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+
+    .album-pictures{
+        display: flex;
+        margin-top: 0%;
+    }
+
+    .position-text-album{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'M PLUS 1p', sans-serif;
+        font-weight: 900;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        
+        
+    }
+    .text-under{
+        color:white;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 1.5rem;
+        padding-bottom: 5.4rem;
+    
+        }   
+}
+

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&family=Quattrocento&family=Yuji+Mai&family=Yuji+Syuku&display=swap');
+.top-div{
+    padding-top: 30em;
+}
+
+.positionArtistName{
+    font-family: 'Quattrocento', serif;
+    font-size: 42px;
+    color: #817d7d;
+    background-color: rgba(51, 50, 48, 0.705);
+    padding: 15px 50px;
+}
+
+
+.artistnameContainer{
+    display: inline-block;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+
+@media (min-width:1440px) {
+    .top-div{
+        padding-top: 30rem;
+    }
+    .positionArtistName{
+        font-family: 'Quattrocento', serif;
+        font-size: 60px;
+        color: #817d7d;
+    }
+}
+
+@media (min-width: 320px) and (max-width:376px) {
+    .artistnameContainer{
+        display: inline-block;
+        margin-left: 10%;
+    }
+    .positionArtistName{
+        font-family: 'Quattrocento', serif;
+        font-size: 30px;
+        color: #817d7d;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .artistnameContainer{
+        display: inline-block;
+        margin-left: 6%;
+    }
+    .positionArtistName{
+        font-family: 'Quattrocento', serif;
+        font-size: 30px;
+        color: #817d7d;
+    }
+}
+
+@media (min-width: 376px) and (max-width:425px) {
+    .artistnameContainer{
+        display: inline-block;
+        margin-left: 12%;
+    }
+    .positionArtistName{
+        font-family: 'Quattrocento', serif;
+        font-size: 30px;
+        color: #817d7d;
+    }
+}
+
+@media (min-width: 425px) and (max-width:530px) {
+    .artistnameContainer{
+        display: inline-block;
+        margin-left: 20%;
+    }
+    .positionArtistName{
+        font-family: 'Quattrocento', serif;
+        font-size: 30px;
+        color: #817d7d;
+    }
+}

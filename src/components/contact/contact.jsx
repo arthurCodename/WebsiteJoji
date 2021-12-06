@@ -1,9 +1,16 @@
 import React from 'react'
 import './contact-style.css'
 
+
+import Navigbar from "../Navbar/Navigbar";
+import Footer from '../Footer/Footer';
+
 function Contact() {
     return (
-        <div className="back-contact"> 
+    <div id="container">
+        <Navigbar/>
+        <div className="main-container">
+            <div className="back-contact"> 
         <div className="contact-main">
             <div className= "contact-form">Hello!
              To get more info about JoJi,
@@ -25,6 +32,10 @@ function Contact() {
             </div>
             
         </div>
+        </div>
+        
+        <Footer/>
+    </div>
     );
 };
 

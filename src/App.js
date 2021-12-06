@@ -6,19 +6,19 @@ import Navigbar from "./components/Navbar/Navigbar";
 import Explore from './components//explore/Explore';
 import Contact from './components//contact/contact';
 import Footer from './components/Footer/Footer';
+// import './allcss.css';
+
 
 function App() {
   return (
     <Router>
-      <div>
-      <Switch>
-        <Route exact path = '/' ><BackgroundVideo/></Route>
-        <Route exact path = '/home' ><Navigbar/></Route>
-        <Route exact path = '/home/explore' ><Navigbar/><Explore/> </Route>
-        <Route exact path = '/home/contact' ><Navigbar/><Contact/><Footer/></Route>
+        <Switch>
+          <Route exact path = '/' ><BackgroundVideo/></Route>
+          <Route exact path = '/home' ></Route>
+          <Route exact path = '/home/explore' ><Explore/></Route>
+          <Route exact path = '/home/contact' ><Contact/></Route>
 
-      </Switch>
-    </div>
+        </Switch>
     </Router>
   );
 }

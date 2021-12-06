@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&display=swap');
 
-.back-container{
+/* .back-container{
     background-image: url("exploreBackground.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -8,13 +8,40 @@
     background-size: cover;
     transform: translate(0,  0%);
     background-repeat: no-repeat;
-    
 }
 
 .content-main{
     
     margin: 0% 10%;
-    
+    height:100%
+} */
+
+
+#container {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    /* position: sticky; */
+    /* transform: translateY(-100%); */
+}
+
+.content-main{
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("exploreBackground.jpg");
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    height:100%;
 }
 
 .enter-Text{
@@ -35,7 +62,6 @@
     font-size: 1.5rem;
     text-align: center;
     margin-top: 1.5rem;
-    padding-bottom: 1.5rem;
 
 }
 
@@ -139,63 +165,15 @@
         margin-top: 5%;
         background-size:  cover;
     }
-}
-
-@media screen and (min-width: 375px ) and (max-width: 425px) {
-    .content-info-block1{
-        font-size: 1rem;
+    
+    .enter-Text:first-child {
+        padding-top: 3rem;
     }
-    .carousel-item1{
-        position: relative;
-        background-image: url("album-covers/Ballads1-album-cover.png");
-        width: 100%;
-        height: 20rem;
-        background-repeat: no-repeat;
-        background-size: cover;
-        clear: both;
-        display: inline-block;
-        overflow: hidden;
-        white-space: nowrap
-    }
-    .carousel-item2{
-        position: relative;
-        background-image: url("album-covers/Nectar-album-cover.jpg");
-        width: 100%;
-        height: 20rem;
-        background-repeat: no-repeat;
-        margin-top: 5%;
-        background-size: cover;
-        clear: both;
-        display: inline-block;
-        overflow: hidden;
-        white-space: nowrap
-    }
-    .carousel-item3{
-        position: relative;
-        background-image: url("album-covers/InTongues-album-cover.jpg");
-        width: 100%;
-        height: 20rem;
-        background-repeat: no-repeat;
-        margin-top: 5%;
-        background-size:  cover;
-        clear: both;
-        display: inline-block;
-        overflow: hidden;
-        white-space: nowrap
-    }
-
-    .position-text-album{
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-family: 'M PLUS 1p', sans-serif;
-        font-weight: 900;
-        cursor: pointer;
-        text-decoration: none;
-        color: white;
+    .text-under {
+        padding-bottom: 3rem;
     }
 }
+
 
 @media screen and (min-width: 375px ) and (max-width: 425px) {
     .content-info-block1{
@@ -249,6 +227,13 @@
         font-weight: 900;
         cursor: pointer;
         text-decoration: none;
+    }
+    
+    .enter-Text:first-child {
+        padding-top: 3rem;
+    }
+    .text-under {
+        padding-bottom: 3rem;
     }
 }
 
@@ -313,12 +298,22 @@
         color: white;
     }
 
-
+    .enter-Text:first-child {
+        padding-top: 3rem;
+    }
+    .text-under {
+        padding-bottom: 3rem;
+    }
     
-
 }
 
 @media screen and (min-width: 700px ) and (max-width: 1000px) {
+    body { height: 100vh}
+    #container{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
     .content-info-block1{
         font-size: 1rem;
     }
@@ -405,12 +400,23 @@
     font-size: 1.5rem;
     text-align: center;
     margin-top: 1.5rem;
-    padding-bottom: 6rem;
 
     }   
 }
 
-@media screen and (min-width: 1000px ) and (max-width: 1920px) {
+@media screen and (min-width: 1900px ) {
+    body { height: 100vh}
+    #container{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    body { height: 100vh}
+    #container{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
     .content-info-block1{
         font-size: 1rem;
     }
@@ -482,7 +488,87 @@
         font-size: 1.5rem;
         text-align: center;
         margin-top: 1.5rem;
-        padding-bottom: 5.4rem;
+    
+        }   
+}
+@media screen and (min-width: 1000px ) and (max-width: 1900px) {
+    body { height: 100vh}
+    #container{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .content-info-block1{
+        font-size: 1rem;
+    }
+    .carousel-item1{
+        
+        
+        background-image: url("album-covers/Ballads1-album-cover.png");
+        width: 100%;
+        margin-right: 5%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        clear: both;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item2{
+        
+        
+        background-image: url("album-covers/Nectar-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        clear: both;
+        margin-top: 0%;
+        margin-right: 5%;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+    .carousel-item3{
+        
+        
+        background-image: url("album-covers/InTongues-album-cover.jpg");
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        background-size:  cover;
+        clear: both;
+        margin-top: 0%;
+        
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap
+    }
+
+    .album-pictures{
+        display: flex;
+        margin-top: 0%;
+    }
+
+    .position-text-album{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'M PLUS 1p', sans-serif;
+        font-weight: 900;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        
+        
+    }
+    .text-under{
+        color:white;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 1.5rem;
     
         }   
 }

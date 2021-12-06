@@ -1,9 +1,15 @@
 import './explore-style.css'
 
+import Navigbar from "../Navbar/Navigbar";
+import Footer from '../Footer/Footer';
+
 
 const Explore = () => {
-    return (
-        <div className="back-container">
+    return (<>
+    
+    <div id="container">
+        <Navigbar/>
+        
         <div className="content-main">
             <div className="content-info-block1">
                 <div className="enter-Text">ジョージ・楠木・ミラー </div>
@@ -15,14 +21,20 @@ const Explore = () => {
                 </div>
             </div>
               <div className="text-under">Click the album names to find out more</div>
-            
+           
         </div>
-        <div
+        <div id="footer"><Footer/></div>
+        
+        {/* <div
           className="background" 
         >
            <span className="position-text">Sign up for our newsletter</span>
         </div>
-        </div>
+         */}
+        {/* <div className="back-container">
+        </div> */}
+    </div>
+    </>
     );
 };
 

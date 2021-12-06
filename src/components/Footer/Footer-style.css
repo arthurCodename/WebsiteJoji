@@ -4,7 +4,6 @@
     padding: 20px;
     display: block;
     position: relative;
-    
 
 }
 
@@ -17,8 +16,6 @@
 
 @media screen and (min-width: 700px ) and (max-width: 1920px){
 .background{
-    
-
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 }

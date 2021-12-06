@@ -13,7 +13,7 @@ export default function BackgroundVideo(){
 
     return (
         <div>
-            <video autoPlay loop muted
+            <video autoPlay loop muted controls="true"
             style={{
                 position: "absolute",
                 width: "100%",

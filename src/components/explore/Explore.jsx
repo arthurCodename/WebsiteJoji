@@ -1,8 +1,4 @@
 import './explore-style.css'
-import img1 from './album-covers/Ballads1-album-cover.png'
-import img2 from './album-covers/InTongues-album-cover.jpg'
-import img3 from './album-covers/Nectar-album-cover.jpg'
-import Footer from '../Footer/Footer'
 
 
 const Explore = () => {

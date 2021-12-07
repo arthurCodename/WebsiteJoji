@@ -100,11 +100,3 @@
 }
 
 
-@media screen and (min-width: 700px ){
-    body { height: 100vh}
-    #container{
-        display:flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-}

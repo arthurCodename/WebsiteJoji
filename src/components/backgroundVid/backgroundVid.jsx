@@ -14,7 +14,7 @@ export default function BackgroundVideo(){
     return (
         <div className="full-screen-video-container">
             <video autoPlay loop muted playsInline
-         
+
              >
                 <source src = {backVid} type='video/mp4'/>
             </video>

@@ -7,6 +7,7 @@ import Footer from '../Footer/Footer';
 
 function Contact() {
     return (
+        
     <div id="container">
         <Navigbar/>
         <div className="main-container">
@@ -32,11 +33,14 @@ function Contact() {
             </div>
             
         </div>
+       
         </div>
-        
+        <div>
         <Footer/>
+        </div>
     </div>
-    );
+    
+    )
 };
 
 export default Contact;

@@ -13,7 +13,7 @@ export default function BackgroundVideo(){
 
     return (
         <div>
-            <video autoPlay loop muted controls playsinline
+            <video autoPlay loop muted playsInline
             style={{
                 position: "absolute",
                 width: "100%",

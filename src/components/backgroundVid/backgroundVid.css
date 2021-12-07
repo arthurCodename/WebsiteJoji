@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&family=Quattrocento&family=Yuji+Mai&family=Yuji+Syuku&display=swap');
-.top-div{
-    padding-top: 30em;
+/* .top-div{
+    padding-top: 15rem;
 }
 
 .positionArtistName{
@@ -43,10 +43,14 @@
 }
 
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width:420){
+    .top-div{
+        padding-top: 5rem;
+    }
     .artistnameContainer{
-        display: inline-block;
+        display: flex;
         margin-left: 6%;
+        margin-top: 50px;
     }
     .positionArtistName{
         font-family: 'Quattrocento', serif;
@@ -64,6 +68,9 @@
         font-family: 'Quattrocento', serif;
         font-size: 30px;
         color: #817d7d;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 }
 
@@ -77,4 +84,69 @@
         font-size: 30px;
         color: #817d7d;
     }
+}
+
+@media (min-width: 425px) and (max-width:768px) {
+    .top-div{
+        padding-top: 2rem;
+    }
+    .artistnameContainer{
+        display: inline-block;
+        margin-left: 20%;
+    }
+    .positionArtistName{
+        font-family: 'Quattrocento', serif;
+        font-size: 30px;
+        color: #817d7d;
+        position: absolute;
+    }
+}
+
+@media (min-height: 425px) and (max-height:768px) {
+    .top-div{
+        padding-bottom: 30px;
+    }
+    .artistnameContainer{
+        display: inline-block;
+        margin-left: 20%;
+    }
+    .positionArtistName{
+        font-family: 'Quattrocento', serif;
+        font-size: 30px;
+        color: #817d7d;
+        position: absolute;
+    }
+} */
+
+.full-screen-video-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.full-screen-video-container video {
+    z-index: -1;
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.full-screen-video-content {
+    font-family: 'Quattrocento', serif;
+    color: rgb(10, 9, 9);
+    padding: 1.2rem 2rem;
+    font-size: 2rem;
+    border-radius: 8px;
+
+    margin-top: 10rem;
+    background-color: rgba(51, 50, 48, 0.705);
 }

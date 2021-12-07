@@ -12,28 +12,24 @@ export default function BackgroundVideo(){
         }
 
     return (
-        <div>
+        <div className="full-screen-video-container">
             <video autoPlay loop muted playsInline
-            style={{
-                position: "absolute",
-                width: "100%",
-                left: "50%",
-                top: "50%",
-                height: "100%",
-                objectFit: "cover",
-                transform: "translate(-50%, -50%)",
-                zIndex: "-1",
-                overflow: 'hidden'
-            }}
+            // style={{
+            //     position: "absolute",
+            //     width: "100%",
+            //     left: "50%",
+            //     top: "50%",
+            //     height: "100%",
+            //     objectFit: "cover",
+            //     transform: "translate(-50%, -50%)",
+            //     zIndex: "-1",
+            //     overflow: 'hidden',
+                
+            // }}
              >
                 <source src = {backVid} type='video/mp4'/>
             </video>
-            <div className="top-div"/>
-            <div className="artistnameContainer">
-            <div className="positionArtistName" onClick={handleRoute}>
-                Explore Joji
-            </div>
-            </div>
+            <div className="full-screen-video-content">Explore Joji </div>
         </div>
     )
 }

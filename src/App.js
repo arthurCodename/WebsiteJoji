@@ -2,7 +2,7 @@ import React from 'react'
 import BackgroundVideo from './components/backgroundVid/backgroundVid';
 import {BrowserRouter as Router,Route,
   Switch} from 'react-router-dom';
-import Navigbar from './components/Navbar/Navigbar';
+
 import Explore from './components//explore/Explore';
 import Contact from './components//contact/contact';
 

@@ -48,19 +48,3 @@ function Contact() {
 export default Contact;
 
 
-  {/* 
-                            <div className="input-form">
-                                <input className="email-field" type="email" />
-                            </div>
-                        <div className="center-label-div">Enter your name and last name below</div>
-                        <div className="input-form">
-                                <input className="email-field" type="email" />
-                        </div>
-                        <div className="center-label-div">Some info about yourself</div>
-                        <div className="input-form">
-                                <input className="email-field-big" type="email" />
-                            </div>
-            <div className="button-pos">
-                <button className="shape-button">Click me Bruv</button></div>
-            </div>
-*/  }

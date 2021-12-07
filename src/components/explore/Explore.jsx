@@ -8,7 +8,7 @@ const Explore = () => {
     return (<>
     
     <div id="container">
-        <Navigbar/>
+      <Navigbar/>
         
         <div className="content-main">
             <div className="content-info-block1">

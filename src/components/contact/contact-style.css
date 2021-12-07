@@ -1,12 +1,9 @@
 .main-container {
-    display:flex;
+     /* display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%
-}
-
-.back-contact{
+    
     background-image: url("exploreBackground.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,21 +11,25 @@
     background-size: cover;
     transform: translate(0,  0%);
     background-repeat: no-repeat;
-    background-attachment: fixed; 
-    width: 100%;
-    height: 100%
+    background-attachment: fixed;  
+     */
+    background-color: 
+
+    #453827
+    
 }
+
 
 .contact-form{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 7rem;
+    padding-top: 15%;
     padding-bottom: 1rem;
     width: 100%;
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 2rem;
-    color: #212529;
+    color: #d89e4a;
     font-weight: bold;
     text-align: center;
     
@@ -46,19 +47,18 @@
     margin-top: 2rem;
     border-radius: 00.5rem;
     padding: 0.5rem 2rem;
-    color: #99a6b3;
+    color: #d89e4a;
     border-color: #212529;
     border-width: 3px;
-    float: left;
+    
     background-color: 
-    #432f20;
+    #d89e4a;
 }
 
 .button-pos {
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
 
 .contact-main{
@@ -73,7 +73,7 @@
     width: 100%;
     font-family: 'M PLUS 1p', sans-serif;
     font-size: 1.5rem;
-    color: 	#505050;
+    color: 	#d89e4a;
     font-weight: bold;
     text-align: center;
 }
@@ -82,12 +82,12 @@
     margin-top: 2rem;
     border-radius: 00.5rem;
     padding: 3rem 6rem;
-    color: #99a6b3;
+    color: #d89e4a;
     border-color: #212529;
     border-width: 3px;
     float: left;
     background-color: 
-    #432f20;
+    #d89e4a;
 }
 
 .shape-button{
@@ -100,3 +100,170 @@
 }
 
 
+@media (max-width: 450px){
+    .email-field-big{
+        padding: 2rem 4rem;
+    }
+
+    .contact-form{
+        font-size: 1.5rem;
+    }
+
+    .center-label-div{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 300px) and (max-width:1000px){
+    .contact-main{
+        padding: 15%;
+    }
+    
+}
+
+@media (min-width: 1000px) and (max-width:2000px) {
+    .contact-main{
+        padding: 20%;
+    }
+}
+
+/* @media (min-width: 300px )and (max-width:425px){
+   
+    .main-container {
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10%;
+        height:100vh;
+   }
+   
+    .contact-form{
+        font-size: 1.2rem;
+        padding-top: 2rem;
+    }
+
+    .center-label-div{
+        font-size: 0.9rem;
+    }
+    .email-field{
+        margin-top: 0.5rem;
+        padding: 0.2rem 1rem
+    }
+
+    .email-field-big{
+        padding: 1rem 3rem;
+        margin-top: 1rem;
+    }
+    
+    .email-field{
+        margin-top: 1rem;
+        padding: 0.2rem 1rem
+    }
+    .input-form{
+        padding-bottom: 0.5rem;
+    }
+    .shape-button{
+        padding:0.5rem 0.5rem;
+    }
+}
+
+
+
+@media (min-width: 425px )and (max-width:768px){
+   
+    .main-container {
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10%;
+        height:100vh;
+   }
+   
+    .contact-form{
+        font-size: 1.2rem;
+        padding-top: 3rem;
+    }
+
+    .center-label-div{
+        font-size: 1rem;
+    }
+    .email-field{
+        margin-top: 1rem;
+        padding: 0.2rem 1rem
+    }
+
+    .shape-button{
+        padding:1rem 1rem;
+    }
+    .button-pos{
+        
+    }
+
+    .email-field-big{
+        padding: 2rem 3rem
+
+    }
+    .input-form{
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width: 768px )and (max-width:1250px){
+    
+    .main-container {
+        background-repeat: no-repeat;
+        overflow: hidden;
+        
+        background-repeat:no-repeat;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-position:center;
+        padding: 0 10%;
+        
+   }
+   
+   
+    .contact-form{
+        font-size: 1rem;
+        padding-top: 0rem;
+       
+    }
+
+    .center-label-div{
+        font-size: 1rem;
+    }
+    .email-field{
+        margin-top: 1rem;
+        padding: 0.2rem 1rem
+    }
+
+    .shape-button{
+        padding:1rem 1rem;
+    }
+    .button-pos{
+        margin-bottom: 1rem;
+    }
+
+    .email-field-big{
+        padding: 2rem 4rem
+    }
+} */

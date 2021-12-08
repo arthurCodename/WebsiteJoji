@@ -13,9 +13,7 @@ function App() {
   return (
     <Router>
       <Route exact path = '/' ><BackgroundVideo/></Route>
-      
         <Switch>
-          
           <Route exact path = '/home' ></Route>
           <Route exact path = '/home/explore' ><Explore/></Route>
           <Route exact path = '/home/contact' ><Contact/></Route>
